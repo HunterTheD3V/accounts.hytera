@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "express.js": "^1.0.0",
+    "index.js": "^0.0.3",
+    "server": "^1.0.37",
     "sql": "^0.78.0"
   }
 }
