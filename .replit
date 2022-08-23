@@ -1,4 +1,9 @@
-run = "npx index.js"
+hidden=[".config"]
+
+# hosting is currently hardcoded for this language
+# [hosting]
+# route = "/"
+# directory= "/"
 
 [nix]
 channel = "stable-21_11"
