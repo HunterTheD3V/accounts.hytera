@@ -1,11 +1,11 @@
-
+@import url(https://allfont.net/allfont.css?fonts=franklin-gothic-heavy);
 
 html {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 40px 0;
     color: #000;
@@ -26,6 +26,7 @@ textarea:focus, input:focus, select:focus, select:active{
 a{
     text-decoration: none;
 }
+
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {outline: none;}
 a,h1,h2,h3,h4,h5{cursor: pointer;}
 a:focus, a:hover{text-decoration: none;}
@@ -35,9 +36,8 @@ ul{list-style: none;}
 .placeholder-fix:focus::-moz-placeholder   {color:transparent !important;}
 .placeholder-fix:-moz-placeholder   {color:transparent !important;}
 .logo h2 {
-    font-size: 24px;
+    font-size: 50px;
     letter-spacing: 3px;
-    text-transform: uppercase;
       font-family: 'Franklin Gothic Heavy', arial;
     font-weight: 900;
     padding-bottom:60px;
@@ -63,11 +63,11 @@ ul{list-style: none;}
     padding:60px 0;
 }
 .login-page .form-control {
-    background-color: #2196f3;
+    background-color: #7cc8ee;
     background-image: none;
-    border: 1px solid #2196f3;
+    border: 1px solid #7cc8ee;
     border-radius: 0;
-    color: #fff;
+    color: #000000;
     display: block;
     font-size: 16px;
     height: 60px;
@@ -87,7 +87,7 @@ ul{list-style: none;}
     opacity: 1;
 }
 .login-page .btn-block {
-    background-color: #d24013;
+    background-color: #7a7a7a;
     border: medium none;
     color: #fff;
     font-size: 20px;
@@ -177,6 +177,7 @@ ul{list-style: none;}
     .logo h2 {
     margin: 0;
     padding-bottom: 40px;
+    font-family: 'Franklin Gothic Heavy', arial;
 }
 .login-page h3 {
     font-size: 16px;
@@ -229,5 +230,22 @@ ul{list-style: none;}
 .page-links {
     padding: 10px 0;
 }
-}
-@import url(https://allfont.net/allfont.css?fonts=franklin-gothic-heavy);
+
+        hr {
+            border-width: 200px;
+	    border-height: 200px;
+            border-color: black;
+	    background-color: black;
+            border-style: solid;
+            border-radius: 100px;
+	    color: black;
+        }
+	footerBar {
+			    color: black;
+			    background-color: black;
+		            width: 200px;
+		         border-radius: 100px;
+	}
+	footer {
+		font-family: 'Quicksand', sans-serif;
+	}

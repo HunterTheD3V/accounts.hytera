@@ -4,5 +4,23 @@
     "index.js": "^0.0.3",
     "server": "^1.0.37",
     "sql": "^0.78.0"
-  }
+  },
+  "name": "hytera-accounts",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo: \"Hello World!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterD3V/accounts.hytera.git"
+  },
+  "author": "HyTera Ultra Studios, HyTera Development",
+  "license": "NOL",
+  "bugs": {
+    "url": "https://github.com/HunterD3V/accounts.hytera/issues"
+  },
+  "homepage": "https://github.com/HunterD3V/accounts.hytera#readme",
+  "description": ""
 }
